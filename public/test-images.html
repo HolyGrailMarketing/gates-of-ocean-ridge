@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-container { margin: 20px 0; }
+        .test-image { 
+            width: 300px; 
+            height: 200px; 
+            border: 2px solid #ccc; 
+            object-fit: cover;
+            display: block;
+            margin: 10px 0;
+        }
+        .error { border-color: red; background: #ffe6e6; }
+        .success { border-color: green; }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    
+    <div class="test-container">
+        <h3>Test 1: /images/exterior/1.jpg</h3>
+        <img id="img1" src="/images/exterior/1.jpg" alt="Test 1" class="test-image" 
+             onload="this.className='test-image success'; document.getElementById('status1').innerText='✅ LOADED'"
+             onerror="this.className='test-image error'; document.getElementById('status1').innerText='❌ FAILED'">
+        <div id="status1">Loading...</div>
+    </div>
+
+    <div class="test-container">
+        <h3>Test 2: /images/exterior/2.jpg</h3>
+        <img id="img2" src="/images/exterior/2.jpg" alt="Test 2" class="test-image" 
+             onload="this.className='test-image success'; document.getElementById('status2').innerText='✅ LOADED'"
+             onerror="this.className='test-image error'; document.getElementById('status2').innerText='❌ FAILED'">
+        <div id="status2">Loading...</div>
+    </div>
+
+    <div class="test-container">
+        <h3>Test 3: /images/exterior/24-AERIAL-VIEW.jpg</h3>
+        <img id="img3" src="/images/exterior/24-AERIAL-VIEW.jpg" alt="Test 3" class="test-image" 
+             onload="this.className='test-image success'; document.getElementById('status3').innerText='✅ LOADED'"
+             onerror="this.className='test-image error'; document.getElementById('status3').innerText='❌ FAILED'">
+        <div id="status3">Loading...</div>
+    </div>
+
+    <script>
+        console.log('Testing image paths...');
+        
+        // Test if images exist
+        fetch('/images/exterior/1.jpg')
+            .then(response => {
+                console.log('1.jpg response:', response.status, response.statusText);
+            })
+            .catch(err => {
+                console.error('1.jpg fetch error:', err);
+            });
+    </script>
+</body>
+</html>
