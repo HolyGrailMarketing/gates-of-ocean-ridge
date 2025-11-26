@@ -104,7 +104,7 @@ export default function Navbar() {
               priority
               quality={60} // Desktop optimized compression
               style={{ 
-                height: '40px', 
+                height: 'auto', 
                 width: 'auto'
               }}
             />
