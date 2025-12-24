@@ -1,6 +1,6 @@
 # The Gates of Ocean Ridge - Coming Soon Website
 
-A luxury one-page website introducing The Gates of Ocean Ridge development in Ocean Ridge, Towel Isle St. Mary, Jamaica. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
+A luxury one-page website introducing The Gates of Ocean Ridge development in Ocean Ridge, Tower Isle St. Mary, Jamaica. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## 🌊 About The Development
 
@@ -10,7 +10,7 @@ The Gates of Ocean Ridge is a premium GREEN community featuring 114 luxury apart
 - **114 Total Units** - Mix of 1, 2, and 3-bedroom apartments (960-2087 sq.ft)
 - **16+ Premium Amenities** - From 24-hour security to rooftop entertainment
 - **100% GREEN Community** - Sustainable design and eco-friendly features
-- **Prime Location** - Ocean Ridge, Towel Isle St. Mary, Jamaica
+- **Prime Location** - Ocean Ridge, Tower Isle St. Mary, Jamaica
 
 ## 🚀 Technology Stack
 
@@ -122,7 +122,7 @@ The architecture supports easy addition of:
 
 ## 📞 Contact Information
 
-**Developer:** Renovare Developments
+**Developer:** Renovare Development Company Limited
 - **Phone:** (876) 678-1039 / (876) 678-1155
 - **Email:** info@renovaredevelopments.com
 - **Instagram:** [@renovaredevelopments.ja](https://instagram.com/renovaredevelopments.ja)
@@ -130,7 +130,7 @@ The architecture supports easy addition of:
 
 ## 📄 License
 
-© 2025 Renovare Developments. All rights reserved.
+© 2025 Renovare Development Company Limited. All rights reserved.
 
 ---
 

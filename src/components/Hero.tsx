@@ -8,6 +8,7 @@ import Head from 'next/head'
 import { semanticColors } from '../styles/colors'
 
 const heroImages = [
+  '/images/exterior/24-AERIAL-VIEW.jpg',
   '/images/exterior/1.jpg',
   '/images/exterior/2.jpg',
   '/images/exterior/3.jpg',
@@ -103,7 +104,7 @@ export default function Hero() {
             opacity: 0.9,
             marginBottom: '0.5rem'
           }}>
-            Ocean Ridge, Towel Isle St. Mary
+            Ocean Ridge, Tower Isle St. Mary
           </p>
           <p style={{ 
             fontSize: '1rem',

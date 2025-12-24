@@ -32,7 +32,7 @@ export default function About() {
             fontWeight: '300'
           }}>
             114 thoughtfully designed units across four modern buildings in Ocean Ridge, 
-            Towel Isle St. Mary, featuring breathtaking ocean views and world-class amenities.
+            Tower Isle St. Mary, featuring breathtaking ocean views and world-class amenities.
           </p>
         </motion.div>
 

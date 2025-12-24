@@ -21,7 +21,7 @@ export default function Location() {
           </h2>
           <div className="w-16 h-1 bg-green-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-            Ocean Ridge, Towel Isle St. Mary - where luxury meets environmental consciousness.
+            Ocean Ridge, Tower Isle St. Mary - where luxury meets environmental consciousness.
           </p>
         </motion.div>
 
@@ -42,7 +42,7 @@ export default function Location() {
                   Prime Ocean Ridge Location
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Located in the exclusive Ocean Ridge area of Towel Isle St. Mary, 
+                  Located in the exclusive Ocean Ridge area of Tower Isle St. Mary, 
                   offering stunning coastal views and pristine natural surroundings.
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function Location() {
                 </h3>
               </div>
               <p className="text-sm text-gray-700">
-                Towel Isle, St. Mary<br />
+                Tower Isle, St. Mary<br />
                 Jamaica
               </p>
             </div>

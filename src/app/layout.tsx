@@ -20,11 +20,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "The Gates of Ocean Ridge | Luxury GREEN Community Coming Soon 2026",
-  description: "Discover The Gates of Ocean Ridge - 114 luxury apartments in Ocean Ridge, Towel Isle St. Mary. A sustainable development featuring world-class amenities, ocean views, and eco-friendly living. Coming Soon 2026.",
-  keywords: "luxury apartments, Ocean Ridge, St. Mary Jamaica, sustainable living, green community, oceanfront development, Renovare Developments",
-  authors: [{ name: "Renovare Developments" }],
-  creator: "Renovare Developments",
-  publisher: "Renovare Developments",
+  description: "Discover The Gates of Ocean Ridge - 114 luxury apartments in Ocean Ridge, Tower Isle St. Mary. A sustainable development featuring world-class amenities, ocean views, and eco-friendly living. Coming Soon 2026.",
+  keywords: "luxury apartments, Ocean Ridge, St. Mary Jamaica, sustainable living, green community, oceanfront development, Renovare Development Company Limited",
+  authors: [{ name: "Renovare Development Company Limited" }],
+  creator: "Renovare Development Company Limited",
+  publisher: "Renovare Development Company Limited",
   robots: "index, follow",
   icons: {
     icon: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "The Gates of Ocean Ridge | Luxury GREEN Community",
-    description: "114 luxury sustainable apartments coming to Ocean Ridge, Towel Isle St. Mary in 2026",
+    description: "114 luxury sustainable apartments coming to Ocean Ridge, Tower Isle St. Mary in 2026",
     url: "https://gatesofoceandridge.com",
     siteName: "The Gates of Ocean Ridge",
     type: "website",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
         url: '/android-chrome-512x512.png',
         width: 512,
         height: 512,
-        alt: 'The Gates of Ocean Ridge - Renovare Developments',
+        alt: 'The Gates of Ocean Ridge - Renovare Development Company Limited',
       },
     ],
   },
