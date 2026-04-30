@@ -133,7 +133,7 @@ export default function Hero() {
             textTransform: 'uppercase'
           }}
         >
-          Coming Soon 2026
+          Now Selling
         </motion.div>
       </div>
       

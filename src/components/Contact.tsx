@@ -98,7 +98,7 @@ export default function Contact() {
               with a focus on innovative design, quality construction, and environmental stewardship.
             </p>
             <div className="bg-blue-900 bg-opacity-50 rounded-lg p-6">
-              <h4 className="font-semibold text-blue-300 mb-2">Coming Soon 2026</h4>
+              <h4 className="font-semibold text-blue-300 mb-2">Now Selling</h4>
               <p className="text-gray-300 text-sm">
                 Follow our progress and be among the first to experience luxury sustainable living 
                 at The Gates of Ocean Ridge.
@@ -172,7 +172,7 @@ export default function Contact() {
           className="mt-16 pt-8 border-t border-gray-800 text-center"
         >
           <p className="text-gray-400">
-            © 2025 Renovare Developments. All rights reserved. | The Gates of Ocean Ridge - Coming Soon 2026
+            © 2026 Renovare Developments. All rights reserved. | The Gates of Ocean Ridge - Now Selling
           </p>
         </motion.div>
       </div>
