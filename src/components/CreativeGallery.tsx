@@ -8,6 +8,11 @@ import { semanticColors } from '../styles/colors'
 
 const galleryImages = [
   {
+    src: '/images/exterior/24-AERIAL-VIEW.jpg',
+    alt: 'Gates of Ocean Ridge Aerial View',
+    category: 'Exterior'
+  },
+  {
     src: '/images/exterior/1.jpg',
     alt: 'Gates of Ocean Ridge Exterior View 1',
     category: 'Exterior'
