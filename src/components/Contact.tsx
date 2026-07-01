@@ -21,7 +21,7 @@ export default function Contact() {
           </h2>
           <div className="w-16 h-1 bg-blue-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            Stay updated on development progress and be first to know when units become available.
+            Units are available now. Reach out to our team to schedule a viewing or reserve your home.
           </p>
         </motion.div>
 
