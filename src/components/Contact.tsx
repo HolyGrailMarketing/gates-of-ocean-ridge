@@ -45,7 +45,7 @@ export default function Contact() {
               />
             </div>
 
-            <div>
+            <div className="text-center md:text-left">
               <p className="text-xs font-semibold tracking-[0.25em] text-blue-400 mb-2">
                 EXCLUSIVE REALTOR
               </p>
@@ -53,7 +53,7 @@ export default function Contact() {
               <p className="text-gray-400 mb-6">Realtor Associate &middot; RCI Realty Plus</p>
 
               <div className="grid sm:grid-cols-2 gap-x-8 gap-y-4">
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start justify-center md:justify-start space-x-3">
                   <Smartphone size={18} className="flex-shrink-0 mt-1 text-blue-400" />
                   <div>
                     <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Mobile</p>
@@ -63,7 +63,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start justify-center md:justify-start space-x-3">
                   <Phone size={18} className="flex-shrink-0 mt-1 text-blue-400" />
                   <div>
                     <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Office</p>
@@ -76,7 +76,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start justify-center md:justify-start space-x-3">
                   <Mail size={18} className="flex-shrink-0 mt-1 text-blue-400" />
                   <div>
                     <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Email</p>
@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3">
+                <div className="flex items-start justify-center md:justify-start space-x-3">
                   <Globe size={18} className="flex-shrink-0 mt-1 text-blue-400" />
                   <div>
                     <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Website</p>
@@ -96,7 +96,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-3 sm:col-span-2">
+                <div className="flex items-start justify-center md:justify-start space-x-3 sm:col-span-2">
                   <MapPin size={18} className="flex-shrink-0 mt-1 text-blue-400" />
                   <div>
                     <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Office Address</p>
